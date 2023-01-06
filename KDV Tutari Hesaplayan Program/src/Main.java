@@ -6,7 +6,7 @@ public class Main {
         double ucret;
         ucret = input.nextDouble();
         boolean dusuk = (ucret<=1000);
-        double kdvo = (dusuk) ? 0.18 : 0.8;
+        double kdvo = (dusuk) ? 0.18 : 0.08;
         double kdvtutari = ucret * kdvo;
         double kdvli = ucret + kdvtutari;
         System.out.println("KDV Tutarı :" + kdvtutari);
